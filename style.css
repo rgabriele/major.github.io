@@ -19,8 +19,12 @@ h1 {
     text-shadow: 2px 2px 4px #000000;
 }
 
+h2 {
+    padding: 10px;
+}
+
 p {
-    line-height: 250%;
+    
 }
 
 img.b {
@@ -36,14 +40,14 @@ img.b {
 }
 
 
-#rcorners {
+.rcorners {
     border-radius: 25px;
-    border: 2px solid #5565A2;
+    border: 3px solid #5565A2;
     background-color: #c5d0f7;
     padding: 10px;
 }
 
-#sborder {
+.sborder {
     border: 2px solid #5565A2;
     background-color: #c5d0f7;
     padding: 20px;
