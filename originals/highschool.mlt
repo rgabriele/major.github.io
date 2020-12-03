@@ -1,0 +1,384 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="6.23.0" title="Shotcut version 20.10.31" producer="main_bin">
+  <profile description="PAL 4:3 DV or DVD" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="25" frame_rate_den="1" colorspace="709"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:00:25.200">
+    <property name="length">00:00:25.240</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:00:25.200"/>
+  </playlist>
+  <producer id="producer0" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">d:/2020 Classes/CS1033/major/images/ldssday.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-12-02T19:04:59</property>
+    <property name="shotcut:hash">389069f2958a38c2edcfef675250a6f3</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">ldssday.jpg</property>
+    <property name="xml">was here</property>
+    <filter id="filter0" out="00:00:04.960">
+      <property name="argument"></property>
+      <property name="geometry">148 -2 1620 426 1</property>
+      <property name="family">Sans</property>
+      <property name="size">48</property>
+      <property name="weight">400</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">0x000000ff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">0x00000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="pixel_ratio">1</property>
+      <property name="mlt_service">qtext</property>
+      <property name="shotcut:filter">richText</property>
+      <property name="html">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Quicksand'; font-size:72pt; color:#000000;&quot;&gt;My Old High School&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Quicksand'; font-size:72pt; font-weight:600; color:#000000;&quot;&gt;LDSS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+    <filter id="filter1" out="00:00:04.960">
+      <property name="argument"></property>
+      <property name="geometry">1334 1005 438 76 1</property>
+      <property name="family">Sans</property>
+      <property name="size">48</property>
+      <property name="weight">400</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">0x000000ff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">0x00000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="pixel_ratio">1</property>
+      <property name="mlt_service">qtext</property>
+      <property name="shotcut:filter">richText</property>
+      <property name="html">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Quicksand'; font-size:32pt; color:#000000;&quot;&gt;Created by&lt;/span&gt;&lt;span style=&quot; font-family:'Quicksand'; font-size:32pt; font-weight:600; color:#000000;&quot;&gt;: rgabrie&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+    <filter id="filter2" out="00:00:04.960">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.960=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer1" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">d:/2020 Classes/CS1033/major/images/ldssgym.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-12-02T19:05:54</property>
+    <property name="shotcut:hash">cfcdab637d9592404265c413b81e6603</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">ldssgym.jpg</property>
+  </producer>
+  <tractor id="tractor0" global_feed="1" in="00:00:00.000" out="00:00:00.360">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer0" in="00:00:04.600" out="00:00:04.960"/>
+    <track producer="producer1" in="00:00:00.000" out="00:00:00.360"/>
+    <transition id="transition0" out="00:00:00.360">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="resource">%luma03.pgm</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="progressive">1</property>
+      <property name="invert">0</property>
+      <property name="softness">0.2</property>
+    </transition>
+    <transition id="transition1" out="00:00:00.360">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer2" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">d:/2020 Classes/CS1033/major/images/ldssscience.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-12-02T19:06:42</property>
+    <property name="shotcut:hash">35647611c2fd76d9015587185c0ae2e6</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">ldssscience.jpg</property>
+    <filter id="filter3" out="00:00:05.360">
+      <property name="argument"></property>
+      <property name="geometry">175 89 1576 643 1</property>
+      <property name="family">Sans</property>
+      <property name="size">48</property>
+      <property name="weight">400</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">0x000000ff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">0x00000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="pixel_ratio">1</property>
+      <property name="mlt_service">qtext</property>
+      <property name="shotcut:filter">richText</property>
+      <property name="html">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Quicksand'; font-size:55pt; font-weight:600; color:#000000;&quot;&gt;Where I almost set the school on fire&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <tractor id="tractor1" global_feed="1" in="00:00:00.000" out="00:00:00.360">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer1" in="00:00:05.400" out="00:00:05.760"/>
+    <track producer="producer2" in="00:00:00.000" out="00:00:00.360"/>
+    <transition id="transition2" out="00:00:00.360">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="resource">%luma13.pgm</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="progressive">1</property>
+      <property name="invert">0</property>
+      <property name="softness">0.2</property>
+    </transition>
+    <transition id="transition3" out="00:00:00.360">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer3" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">d:/2020 Classes/CS1033/major/images/ldssshop.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-12-02T19:07:11</property>
+    <property name="shotcut:hash">1fe16d49b3e8ccf7a9a0919dd2ba43db</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">ldssshop.jpg</property>
+  </producer>
+  <tractor id="tractor2" global_feed="1" in="00:00:00.000" out="00:00:00.360">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer2" in="00:00:05.000" out="00:00:05.360"/>
+    <track producer="producer3" in="00:00:00.000" out="00:00:00.360"/>
+    <transition id="transition4" out="00:00:00.360">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="resource">%luma17.pgm</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="progressive">1</property>
+      <property name="invert">0</property>
+      <property name="softness">0.2</property>
+    </transition>
+    <transition id="transition5" out="00:00:00.360">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer4" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">d:/2020 Classes/CS1033/major/images/ldsshallway.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-12-02T19:06:06</property>
+    <property name="shotcut:hash">fb98d0e3a2538d9a1c2d96919945b015</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">ldsshallway.jpg</property>
+  </producer>
+  <tractor id="tractor3" global_feed="1" in="00:00:00.000" out="00:00:00.360">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer3" in="00:00:03.800" out="00:00:04.160"/>
+    <track producer="producer4" in="00:00:00.000" out="00:00:00.360"/>
+    <transition id="transition6" out="00:00:00.360">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="resource">%luma22.pgm</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="progressive">1</property>
+      <property name="invert">0</property>
+      <property name="softness">0.2</property>
+    </transition>
+    <transition id="transition7" out="00:00:00.360">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer5" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">d:/2020 Classes/CS1033/major/images/ldsslobby.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-12-02T19:06:53</property>
+    <property name="shotcut:hash">dfda38ae28117d3b9cc03e35c66d38ab</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">ldsslobby.jpg</property>
+    <filter id="filter4" out="00:00:03.120">
+      <property name="start">1</property>
+      <property name="level">00:00:00.160=1;00:00:03.120=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:03.000</property>
+    </filter>
+  </producer>
+  <tractor id="tractor4" global_feed="1" in="00:00:00.000" out="00:00:00.360">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer4" in="00:00:03.280" out="00:00:03.640"/>
+    <track producer="producer5" in="00:00:00.000" out="00:00:00.360"/>
+    <transition id="transition8" out="00:00:00.360">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="resource">%luma09.pgm</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="progressive">1</property>
+      <property name="invert">0</property>
+      <property name="softness">0.2</property>
+    </transition>
+    <transition id="transition9" out="00:00:00.360">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer0" in="00:00:00.000" out="00:00:04.560"/>
+    <entry producer="tractor0" in="00:00:00.000" out="00:00:00.360"/>
+    <entry producer="producer1" in="00:00:00.400" out="00:00:05.360"/>
+    <entry producer="tractor1" in="00:00:00.000" out="00:00:00.360"/>
+    <entry producer="producer2" in="00:00:00.400" out="00:00:04.960"/>
+    <entry producer="tractor2" in="00:00:00.000" out="00:00:00.360"/>
+    <entry producer="producer3" in="00:00:00.400" out="00:00:03.760"/>
+    <entry producer="tractor3" in="00:00:00.000" out="00:00:00.360"/>
+    <entry producer="producer4" in="00:00:00.400" out="00:00:03.240"/>
+    <entry producer="tractor4" in="00:00:00.000" out="00:00:00.360"/>
+    <entry producer="producer5" in="00:00:00.400" out="00:00:03.120"/>
+  </playlist>
+  <producer id="producer7" in="00:00:00.000" out="00:03:18.160">
+    <property name="length">00:03:18.200</property>
+    <property name="eof">pause</property>
+    <property name="resource">d:/2020 Classes/CS1033/major/originals/Simple Plan - Im Just A Kid.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-12-02T19:15:03</property>
+    <property name="shotcut:hash">c7b65fdf79ce0c0012173d10ba31f356</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">Simple Plan - Im Just A Kid.mp3</property>
+    <property name="xml">was here</property>
+    <filter id="filter5" in="00:00:21.600" out="00:00:46.800">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:22.240=0;00:00:25.200=-60</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeOutVolume</property>
+      <property name="shotcut:animOut">00:00:03.000</property>
+    </filter>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <entry producer="producer7" in="00:00:21.600" out="00:00:46.800"/>
+  </playlist>
+  <tractor id="tractor6" title="Shotcut version 20.10.31" global_feed="1" in="00:00:00.000" out="00:00:25.200">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <property name="shotcut:scaleFactor">4.5843</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1" hide="video"/>
+    <transition id="transition12">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition13">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition14">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+  </tractor>
+</mlt>
